@@ -1,4 +1,15 @@
-module.exports = function(obj){
+var nodeVersion = process.versions.node.split('.')
+var pauseRequired = parseInt(nodeVersion[0]) === 0 
+  && parseInt(nodeVersion[1]) < 10
+  
+function noop() {}
+
+module.exports = !pauseRequired ? function() {
+  return {
+    end: noop,
+    resume: noop
+  }
+} : function(obj){
   var onData
     , onEnd
     , events = [];
