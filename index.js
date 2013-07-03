@@ -1,5 +1,6 @@
 module.exports = function(obj){
-  var onData
+  var onClose
+    , onData
     , onEnd
     , events = [];
 
