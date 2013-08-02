@@ -13,6 +13,11 @@ module.exports = function(obj){
   obj.on('end', onEnd = function(data, encoding){
     events.push(['end', data, encoding]);
   });
+  
+  // buffer error
+  obj.on('error', onError = function(data, encoding) {
+    events.push(['error', data, encoding]);
+  });
 
   // buffer close
   obj.on('close', onClose = function(d){
@@ -23,6 +28,7 @@ module.exports = function(obj){
     end: function(){
       obj.removeListener('data', onData);
       obj.removeListener('end', onEnd);
+      obj.removeListener('error', onError);
       obj.removeListener('close', onClose);
     },
     resume: function(){
