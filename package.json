@@ -8,5 +8,11 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*"
-  }
+  },
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
 }
