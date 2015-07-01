@@ -4,6 +4,7 @@
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-image]][node-url]
 [![Build Status][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
 
 Pause a stream's data events
 
@@ -42,7 +43,9 @@ followed by an `end` event, if that was emitting during the pause.
 [npm-url]: https://npmjs.org/package/pause
 [node-image]: https://img.shields.io/node/v/pause.svg
 [node-url]: http://nodejs.org/download/
-[travis-image]: https://img.shields.io/travis/stream-utils/pause.svg
+[travis-image]: https://img.shields.io/travis/stream-utils/pause/master.svg
 [travis-url]: https://travis-ci.org/stream-utils/pause
+[coveralls-image]: https://img.shields.io/coveralls/stream-utils/pause.svg
+[coveralls-url]: https://coveralls.io/r/stream-utils/pause?branch=master
 [downloads-image]: https://img.shields.io/npm/dm/pause.svg
 [downloads-url]: https://npmjs.org/package/pause
