@@ -1,5 +1,5 @@
-unreleased
-==========
+0.1.0 / 2015-07-01
+==================
 
   * Re-emit events with all original arguments
   * Refactor internals
