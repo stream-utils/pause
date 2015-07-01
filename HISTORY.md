@@ -1,6 +1,7 @@
 unreleased
 ==========
 
+  * Re-emit events with all original arguments
   * Refactor internals
   * perf: enable strict mode
 
