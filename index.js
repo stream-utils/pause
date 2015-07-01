@@ -1,3 +1,8 @@
+/*!
+ * pause
+ * Copyright(c) 2012 TJ Holowaychuk
+ * MIT Licensed
+ */
 
 module.exports = function(obj){
   var onData
