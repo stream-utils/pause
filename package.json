@@ -10,8 +10,8 @@
   "repository": "stream-utils/pause",
   "devDependencies": {
     "after": "0.8.1",
-    "istanbul": "0.3.17",
-    "mocha": "1.21.5"
+    "istanbul": "0.4.1",
+    "mocha": "2.3.4"
   },
   "files": [
     "HISTORY.md",
