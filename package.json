@@ -10,7 +10,7 @@
   "repository": "stream-utils/pause",
   "devDependencies": {
     "after": "0.8.1",
-    "istanbul": "0.3.17",
+    "istanbul": "0.4.2",
     "mocha": "1.21.5"
   },
   "files": [
