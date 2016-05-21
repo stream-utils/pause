@@ -21,7 +21,7 @@ module.exports = pause
  * @public
  */
 
-function pause(stream) {
+function pause (stream) {
   var events = []
   var onData = createEventListener('data', events)
   var onEnd = createEventListener('end', events)
@@ -33,11 +33,11 @@ function pause(stream) {
   stream.on('end', onEnd)
 
   return {
-    end: function end() {
+    end: function end () {
       stream.removeListener('data', onData)
       stream.removeListener('end', onEnd)
     },
-    resume: function resume() {
+    resume: function resume () {
       this.end()
 
       for (var i = 0; i < events.length; i++) {
@@ -47,8 +47,8 @@ function pause(stream) {
   }
 }
 
-function createEventListener(name, events) {
-  return function onEvent() {
+function createEventListener (name, events) {
+  return function onEvent () {
     var args = new Array(arguments.length + 1)
 
     args[0] = name

@@ -3,7 +3,6 @@ var after = require('after')
 var assert = require('assert')
 var pause = require('..')
 var Stream = require('stream')
-var util = require('util')
 
 describe('pause(stream)', function () {
   it('should return a handle', function () {
