@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": "stream-utils/pause",
   "devDependencies": {
-    "after": "0.8.1",
+    "after": "0.8.2",
     "eslint": "2.10.2",
     "eslint-config-standard": "5.3.1",
     "eslint-plugin-promise": "1.1.0",
