@@ -42,7 +42,7 @@ followed by an `end` event, if that was emitting during the pause.
 [npm-image]: https://img.shields.io/npm/v/pause.svg
 [npm-url]: https://npmjs.org/package/pause
 [node-image]: https://img.shields.io/node/v/pause.svg
-[node-url]: http://nodejs.org/download/
+[node-url]: https://nodejs.org/en/download/
 [travis-image]: https://img.shields.io/travis/stream-utils/pause/master.svg
 [travis-url]: https://travis-ci.org/stream-utils/pause
 [coveralls-image]: https://img.shields.io/coveralls/stream-utils/pause.svg
